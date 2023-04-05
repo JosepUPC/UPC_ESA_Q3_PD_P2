@@ -226,3 +226,15 @@ void loop() {
   }
 }
 ```
+
+## **Diagrama de flujo**
+
+## **Diagrama de tiempos**
+
+## **Conclusiones**
+
+>   *--- Las interrupciones son herramientas muy utiles ha a hora de querer generar respuestas de forma rápida y muy importante: prioritaria. *
+
+> *--- Se pueden dar en casos puntuales, que respondan a la llamade de un cierto impulso, ya sea una llamade emergencia, una alarma, un sensor de temperatura indicando el maximo de resistencia de un sistema junto a sus medidas. Las medidas pueden ir desde enviar un mensaje, modificar deritas vairables o activar ciertas funciones o prodecimentos*
+
+> *--- Por otro grácias a la herramienta timer del Esp33 se pueden generar interrupciones de los procesos main loop de forma periódica. Muy útil a la hora de querer ejecutar ciertas acciones en un tiempo constante hasta un maximo de 4*. Las aplicaciones pueden ir desde recodificar valores cada cierto tiempo, comprobar el estado del sistema, crear un historial,...etc. 
