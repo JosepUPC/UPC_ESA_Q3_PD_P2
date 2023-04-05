@@ -1,0 +1,182 @@
+ *  Executing task: C:\Users\98esq\.platformio\penv\Scripts\platformio.exe run --target upload --target monitor --environment esp32doit-devkit-v1 --upload-port COM3 --monitor-port COM3 
+
+Processing esp32doit-devkit-v1 (platform: espressif32; board: esp32doit-devkit-v1; framework: arduino)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32doit-devkit-v1.html
+PLATFORM: Espressif 32 (6.0.1) > DOIT ESP32 DEVKIT V1
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (olimex-arm-usb-ocd-h) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES:
+ - framework-arduinoespressif32 @ 3.20006.221224 (2.0.6)
+ - tool-esptoolpy @ 1.40400.0 (4.4.0)
+ - tool-mkfatfs @ 2.0.1
+ - tool-mklittlefs @ 1.203.210628 (2.3)
+ - tool-mkspiffs @ 2.230.0 (2.30)
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 33 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+Retrieving maximum program size .pio\build\esp32doit-devkit-v1\firmware.elf
+Checking size .pio\build\esp32doit-devkit-v1\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]   6.8% (used 22272 bytes from 327680 bytes)
+Flash: [==        ]  20.5% (used 268565 bytes from 1310720 bytes)
+Configuring upload protocol...
+AVAILABLE: cmsis-dap, esp-bridge, esp-prog, espota, esptool, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa
+CURRENT: upload_protocol = esptool
+Looking for upload port...
+Using manually specified: COM3
+Uploading .pio\build\esp32doit-devkit-v1\firmware.bin
+esptool.py v4.4
+Serial port COM3
+Connecting.........
+Chip is ESP32-D0WD (revision v1.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 94:3c:c6:37:93:14
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00005fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Flash will be erased from 0x0000e000 to 0x0000ffff...
+Flash will be erased from 0x00010000 to 0x00051fff...
+Compressed 17408 bytes to 12112...
+Writing at 0x00001000... (100 %)
+Wrote 17408 bytes (12112 compressed) at 0x00001000 in 0.6 seconds (effective 221.4 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 146...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (146 compressed) at 0x00008000 in 0.1 seconds (effective 386.4 kbit/s)...
+Hash of data verified.
+Compressed 8192 bytes to 47...
+Writing at 0x0000e000... (100 %)
+Wrote 8192 bytes (47 compressed) at 0x0000e000 in 0.1 seconds (effective 730.9 kbit/s)...
+Hash of data verified.
+Compressed 268960 bytes to 149070...
+Writing at 0x00010000... (10 %)
+Writing at 0x0001c558... (20 %)
+Writing at 0x00024e50... (30 %)
+Writing at 0x0002a21c... (40 %)
+Writing at 0x0002f777... (50 %)
+Writing at 0x00034cef... (60 %)
+Writing at 0x0003d9fe... (70 %)
+Writing at 0x000462fa... (80 %)
+Writing at 0x0004b83e... (90 %)
+Writing at 0x00051094... (100 %)
+Wrote 268960 bytes (149070 compressed) at 0x00010000 in 3.6 seconds (effective 603.6 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+================================================================= [SUCCESS] Took 10.20 seconds =================================================================
+--- Terminal on COM3 | 115200 8-N-1
+--- Available filters and text transformations: colorize, debug, default, direct, esp32_exception_decoder, hexlify, log2file, nocontrol, printable, send_on_enter, time
+--- More details at https://bit.ly/pio-monitor-filters
+--- Quit: Ctrl+C | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H
+etPeriode 1, leds actius: 001
+Periode 2, leds actius: 011
+Periode 3, leds actius: 100
+Periode 4, leds actius: 100
+Periode 5, leds actius: 010
+Periode 6, leds actius: 001
+Periode 7, leds actius: 101
+Periode 8, leds actius: 111
+Periode 9, leds actius: 000
+Periode 10, leds actius: 010
+Periode 11, leds actius: 010
+Periode 12, leds actius: 101
+Periode 13, leds actius: 111
+Periode 14, leds actius: 011
+Periode 15, leds actius: 000
+Periode 16, leds actius: 110
+Periode 17, leds actius: 100
+Periode 18, leds actius: 001
+Periode 19, leds actius: 011
+Periode 20, leds actius: 101
+Periode 21, leds actius: 100
+Periode 22, leds actius: 110
+Periode 23, leds actius: 000
+Periode 24, leds actius: 011
+Periode 25, leds actius: 111
+Periode 26, leds actius: 101
+Periode 27, leds actius: 010
+Periode 28, leds actius: 010
+Periode 29, leds actius: 100
+Periode 30, leds actius: 111
+Periode 31, leds actius: 001
+Periode 32, leds actius: 001
+Periode 33, leds actius: 010
+Periode 34, leds actius: 100
+Periode 35, leds actius: 100
+Periode 36, leds actius: 011
+Periode 37, leds actius: 001
+Periode 38, leds actius: 111
+Periode 39, leds actius: 110
+Periode 40, leds actius: 000
+Periode 41, leds actius: 010
+Periode 42, leds actius: 111
+Periode 43, leds actius: 101
+Periode 44, leds actius: 111
+Periode 45, leds actius: 000
+Periode 46, leds actius: 000
+Periode 47, leds actius: 110
+Periode 48, leds actius: 101
+Periode 49, leds actius: 001
+Periode 50, leds actius: 011
+Periode 51, leds actius: 100
+Periode 52, leds actius: 110
+Periode 53, leds actius: 010
+Periode 54, leds actius: 001
+Periode 55, leds actius: 011
+Periode 56, leds actius: 111
+Periode 57, leds actius: 100
+Periode 58, leds actius: 010
+Periode 59, leds actius: 000
+Periode 60, leds actius: 101
+Periode 61, leds actius: 111
+Periode 62, leds actius: 001
+Periode 63, leds actius: 000
+Periode 64, leds actius: 110
+Periode 65, leds actius: 100
+Periode 66, leds actius: 111
+Periode 67, leds actius: 011
+Periode 68, leds actius: 001
+Periode 69, leds actius: 110
+Periode 70, leds actius: 110
+Periode 71, leds actius: 000
+Periode 72, leds actius: 011
+Periode 73, leds actius: 101
+Periode 74, leds actius: 101
+Periode 75, leds actius: 010
+Periode 76, leds actius: 000
+Periode 77, leds actius: 000
+Periode 78, leds actius: 111
+Periode 79, leds actius: 101
+Periode 80, leds actius: 011
+Periode 81, leds actius: 010
+Periode 82, leds actius: 100
+Periode 83, leds actius: 110
+Periode 84, leds actius: 011
+Periode 85, leds actius: 001
+Periode 86, leds actius: 111
+Periode 87, leds actius: 100
+Periode 88, leds actius: 100
+Periode 89, leds actius: 010
+Periode 90, leds actius: 001
+Periode 91, leds actius: 101
+Periode 92, leds actius: 111
+Periode 93, leds actius: 000
+Periode 94, leds actius: 010
+Periode 95, leds actius: 110
+Periode 96, leds actius: 101
+Periode 97, leds actius: 011
+Periode 98, leds actius: 011
+Periode 99, leds actius: 000
+Periode 100, leds actius: 110
