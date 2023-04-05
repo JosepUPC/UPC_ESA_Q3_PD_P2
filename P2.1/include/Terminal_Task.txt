@@ -1,0 +1,354 @@
+ *  Executing task: C:\Users\98esq\.platformio\penv\Scripts\platformio.exe run --target upload --target monitor --environment esp32doit-devkit-v1 --upload-port COM3 --monitor-port COM3 
+
+Processing esp32doit-devkit-v1 (platform: espressif32; board: esp32doit-devkit-v1; framework: arduino)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32doit-devkit-v1.html
+PLATFORM: Espressif 32 (6.0.1) > DOIT ESP32 DEVKIT V1
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (olimex-arm-usb-ocd-h) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES:
+ - framework-arduinoespressif32 @ 3.20006.221224 (2.0.6)
+ - tool-esptoolpy @ 1.40400.0 (4.4.0)
+ - tool-mkfatfs @ 2.0.1
+ - tool-mklittlefs @ 1.203.210628 (2.3)
+ - tool-mkspiffs @ 2.230.0 (2.30)
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 33 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+Retrieving maximum program size .pio\build\esp32doit-devkit-v1\firmware.elf
+Checking size .pio\build\esp32doit-devkit-v1\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]   6.9% (used 22664 bytes from 327680 bytes)
+Flash: [==        ]  20.3% (used 266141 bytes from 1310720 bytes)
+Configuring upload protocol...
+AVAILABLE: cmsis-dap, esp-bridge, esp-prog, espota, esptool, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa
+CURRENT: upload_protocol = esptool
+Looking for upload port...
+Using manually specified: COM3
+Uploading .pio\build\esp32doit-devkit-v1\firmware.bin
+esptool.py v4.4
+Serial port COM3
+Connecting........................
+Chip is ESP32-D0WD (revision v1.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 94:3c:c6:37:93:14
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00005fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Flash will be erased from 0x0000e000 to 0x0000ffff...
+Flash will be erased from 0x00010000 to 0x00051fff...
+Compressed 17408 bytes to 12112...
+Writing at 0x00001000... (100 %)
+Wrote 17408 bytes (12112 compressed) at 0x00001000 in 0.6 seconds (effective 221.2 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 146...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (146 compressed) at 0x00008000 in 0.1 seconds (effective 376.0 kbit/s)...
+Hash of data verified.
+Compressed 8192 bytes to 47...
+Writing at 0x0000e000... (100 %)
+Wrote 8192 bytes (47 compressed) at 0x0000e000 in 0.1 seconds (effective 711.2 kbit/s)...
+Hash of data verified.
+Compressed 266528 bytes to 147666...
+Writing at 0x00010000... (10 %)
+Writing at 0x0001c6e2... (20 %)
+Writing at 0x00024f00... (30 %)
+Writing at 0x0002a0a6... (40 %)
+Writing at 0x0002f5eb... (50 %)
+Writing at 0x00034d0a... (60 %)
+Writing at 0x0003e104... (70 %)
+Writing at 0x00046107... (80 %)
+Writing at 0x0004b5ec... (90 %)
+Writing at 0x0005100a... (100 %)
+Wrote 266528 bytes (147666 compressed) at 0x00010000 in 3.6 seconds (effective 600.2 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+================================================================= [SUCCESS] Took 14.65 seconds =================================================================
+--- Terminal on COM3 | 115200 8-N-1
+--- Available filters and text transformations: colorize, debug, default, direct, esp32_exception_decoder, hexlify, log2file, nocontrol, printable, send_on_enter, time
+--- More details at https://bit.ly/pio-monitor-filters
+--- Quit: Ctrl+C | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H
+eButton 1 has been pressed 1 times
+Button 1 has been pressed 2 times
+Button 1 has been pressed 3 times
+Button 1 has been pressed 4 times
+Button 1 has been pressed 5 times
+Button 1 has been pressed 6 times
+Button 1 has been pressed 8 times
+Button 1 has been pressed 11 times
+Button 1 has been pressed 12 times
+Button 1 has been pressed 13 times
+Button 1 has been pressed 14 times
+Button 1 has been pressed 16 times
+Button 1 has been pressed 17 times
+Button 1 has been pressed 18 times
+Button 1 has been pressed 19 times
+Button 1 has been pressed 20 times
+Button 1 has been pressed 21 times
+Button 1 has been pressed 25 times
+Button 1 has been pressed 26 times
+Button 1 has been pressed 27 times
+Button 1 has been pressed 28 times
+Button 1 has been pressed 29 times
+Button 1 has been pressed 30 times
+Button 1 has been pressed 31 times
+Button 1 has been pressed 33 times
+Button 1 has been pressed 34 times
+Button 1 has been pressed 35 times
+Button 1 has been pressed 36 times
+Button 1 has been pressed 37 times
+Button 1 has been pressed 39 times
+Button 1 has been pressed 40 times
+Button 1 has been pressed 42 times
+Button 1 has been pressed 43 times
+Button 1 has been pressed 44 times
+Button 1 has been pressed 45 times
+Button 1 has been pressed 46 times
+Button 1 has been pressed 47 times
+Button 1 has been pressed 48 times
+Button 1 has been pressed 51 times
+Button 1 has been pressed 52 times
+Button 1 has been pressed 53 times
+Button 1 has been pressed 64 times
+Button 1 has been pressed 65 times
+Button 1 has been pressed 66 times
+Button 1 has been pressed 67 times
+Button 1 has been pressed 68 times
+Button 1 has been pressed 69 times
+Button 1 has been pressed 70 times
+Button 1 has been pressed 71 times
+Button 1 has been pressed 72 times
+Button 1 has been pressed 73 times
+Button 1 has been pressed 74 times
+Button 1 has been pressed 75 times
+Button 1 has been pressed 76 times
+Button 1 has been pressed 77 times
+Button 1 has been pressed 79 times
+Button 1 has been pressed 80 times
+Button 1 has been pressed 82 times
+Button 1 has been pressed 83 times
+Button 1 has been pressed 84 times
+Button 1 has been pressed 85 times
+Button 1 has been pressed 86 times
+Button 1 has been pressed 87 times
+Button 1 has been pressed 88 times
+Button 1 has been pressed 89 times
+Button 1 has been pressed 90 times
+Button 1 has been pressed 91 times
+Button 1 has been pressed 92 times
+Button 1 has been pressed 93 times
+Button 1 has been pressed 94 times
+Button 1 has been pressed 95 times
+Button 1 has been pressed 96 times
+Button 1 has been pressed 97 times
+Button 1 has been pressed 98 times
+Button 1 has been pressed 99 times
+Button 1 has been pressed 100 times
+Button 1 has been pressed 101 times
+Button 1 has been pressed 102 times
+Button 1 has been pressed 103 times
+Button 1 has been pressed 104 times
+Button 1 has been pressed 105 times
+Button 1 has been pressed 106 times
+Button 1 has been pressed 107 times
+Button 1 has been pressed 108 times
+Button 1 has been pressed 109 times
+Button 1 has been pressed 110 times
+Button 1 has been pressed 111 times
+Button 1 has been pressed 112 times
+Button 1 has been pressed 113 times
+Button 1 has been pressed 114 times
+Button 1 has been pressed 115 times
+Button 1 has been pressed 116 times
+Button 1 has been pressed 117 times
+Button 1 has been pressed 118 times
+Button 1 has been pressed 119 times
+Button 1 has been pressed 120 times
+Button 1 has been pressed 121 times
+Button 1 has been pressed 122 times
+Button 1 has been pressed 123 times
+Button 1 has been pressed 124 times
+Button 1 has been pressed 125 times
+Button 1 has been pressed 126 times
+Button 1 has been pressed 127 times
+Button 1 has been pressed 128 times
+Button 1 has been pressed 129 times
+Button 1 has been pressed 130 times
+Button 1 has been pressed 131 times
+Button 1 has been pressed 132 times
+Button 1 has been pressed 133 times
+Button 1 has been pressed 134 times
+Button 1 has been pressed 135 times
+Button 1 has been pressed 136 times
+Button 1 has been pressed 137 times
+Button 1 has been pressed 138 times
+Button 1 has been pressed 139 times
+Button 1 has been pressed 140 times
+Button 1 has been pressed 141 times
+Button 1 has been pressed 142 times
+Button 1 has been pressed 143 times
+Button 1 has been pressed 144 times
+Button 1 has been pressed 145 times
+Button 1 has been pressed 146 times
+Button 1 has been pressed 147 times
+Button 1 has been pressed 148 times
+Button 1 has been pressed 149 times
+Button 1 has been pressed 150 times
+Button 1 has been pressed 151 times
+Button 1 has been pressed 152 times
+Button 1 has been pressed 154 times
+Button 1 has been pressed 155 times
+Button 1 has been pressed 156 times
+Button 1 has been pressed 157 times
+Button 1 has been pressed 158 times
+Button 1 has been pressed 159 times
+Button 1 has been pressed 160 times
+Button 1 has been pressed 161 times
+Button 1 has been pressed 162 times
+Button 1 has been pressed 163 times
+Button 1 has been pressed 164 times
+Button 1 has been pressed 165 times
+Button 1 has been pressed 166 times
+Button 1 has been pressed 167 times
+Button 1 has been pressed 168 times
+Button 1 has been pressed 169 times
+Button 1 has been pressed 170 times
+Button 1 has been pressed 171 times
+Button 1 has been pressed 173 times
+Button 1 has been pressed 174 times
+Button 1 has been pressed 175 times
+Button 1 has been pressed 176 times
+Button 1 has been pressed 177 times
+Button 1 has been pressed 178 times
+Button 1 has been pressed 179 times
+Button 1 has been pressed 180 times
+Button 1 has been pressed 181 times
+Button 1 has been pressed 182 times
+Button 1 has been pressed 183 times
+Button 1 has been pressed 184 times
+Button 1 has been pressed 186 times
+Button 1 has been pressed 187 times
+Button 1 has been pressed 188 times
+Button 1 has been pressed 189 times
+Button 1 has been pressed 190 times
+Button 1 has been pressed 191 times
+Button 1 has been pressed 192 times
+Button 1 has been pressed 193 times
+Button 1 has been pressed 194 times
+Button 1 has been pressed 195 times
+Button 1 has been pressed 196 times
+Button 1 has been pressed 197 times
+Button 1 has been pressed 198 times
+Button 1 has been pressed 200 times
+Button 1 has been pressed 201 times
+Button 1 has been pressed 202 times
+Button 1 has been pressed 203 times
+Button 1 has been pressed 204 times
+Button 1 has been pressed 205 times
+Button 1 has been pressed 207 times
+Button 1 has been pressed 208 times
+Button 1 has been pressed 209 times
+Button 1 has been pressed 210 times
+Button 1 has been pressed 211 times
+Button 1 has been pressed 212 times
+Button 1 has been pressed 213 times
+Button 1 has been pressed 214 times
+Button 1 has been pressed 215 times
+Button 1 has been pressed 216 times
+Button 1 has been pressed 217 times
+Button 1 has been pressed 218 times
+Button 1 has been pressed 219 times
+Button 1 has been pressed 220 times
+Button 1 has been pressed 221 times
+Button 1 has been pressed 222 times
+Button 1 has been pressed 223 times
+Button 1 has been pressed 224 times
+Button 1 has been pressed 225 times
+Button 1 has been pressed 226 times
+Button 1 has been pressed 228 times
+Button 1 has been pressed 229 times
+Button 1 has been pressed 230 times
+Button 1 has been pressed 232 times
+Button 1 has been pressed 233 times
+Button 1 has been pressed 234 times
+Button 1 has been pressed 235 times
+Button 1 has been pressed 236 times
+Button 1 has been pressed 237 times
+Button 1 has been pressed 238 times
+Button 1 has been pressed 239 times
+Button 1 has been pressed 240 times
+Button 1 has been pressed 241 times
+Button 1 has been pressed 242 times
+Button 1 has been pressed 243 times
+Button 1 has been pressed 244 times
+Button 1 has been pressed 245 times
+Button 1 has been pressed 246 times
+Button 1 has been pressed 247 times
+Button 1 has been pressed 248 times
+Button 1 has been pressed 249 times
+Button 1 has been pressed 251 times
+Button 1 has been pressed 252 times
+Button 1 has been pressed 254 times
+Button 1 has been pressed 255 times
+Button 1 has been pressed 256 times
+Button 1 has been pressed 257 times
+Button 1 has been pressed 258 times
+Button 1 has been pressed 259 times
+Button 1 has been pressed 260 times
+Button 1 has been pressed 261 times
+Button 1 has been pressed 262 times
+Button 1 has been pressed 263 times
+Button 1 has been pressed 264 times
+Button 1 has been pressed 265 times
+Button 1 has been pressed 266 times
+Button 1 has been pressed 267 times
+Button 1 has been pressed 268 times
+Button 1 has been pressed 269 times
+Button 1 has been pressed 270 times
+Button 1 has been pressed 271 times
+Button 1 has been pressed 272 times
+Button 1 has been pressed 273 times
+Button 1 has been pressed 274 times
+Button 1 has been pressed 275 times
+Button 1 has been pressed 276 times
+Button 1 has been pressed 277 times
+Button 1 has been pressed 278 times
+Button 1 has been pressed 279 times
+Button 1 has been pressed 281 times
+Button 1 has been pressed 282 times
+Button 1 has been pressed 284 times
+Button 1 has been pressed 285 times
+Button 1 has been pressed 286 times
+Button 1 has been pressed 287 times
+Button 1 has been pressed 288 times
+Button 1 has been pressed 289 times
+Button 1 has been pressed 290 times
+Button 1 has been pressed 291 times
+Button 1 has been pressed 292 times
+Button 1 has been pressed 294 times
+Button 1 has been pressed 300 times
+Button 1 has been pressed 302 times
+Button 1 has been pressed 303 times
+Button 1 has been pressed 304 times
+Button 1 has been pressed 306 times
+Button 1 has been pressed 309 times
+Button 1 has been pressed 310 times
+Button 1 has been pressed 311 times
+Button 1 has been pressed 312 times
+Button 1 has been pressed 313 times
+Interrupt Detached!
+Interrupt Detached!
+Interrupt Detached!
+Interrupt Detached!
