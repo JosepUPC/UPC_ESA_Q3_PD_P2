@@ -7,8 +7,6 @@
     - Interrupcion por GPIO
     - Interrupción por Timer
     - LED Interrupt
-* Diagrama de flujo
-* Diagrama de tiempos
 * Conclusiones
 ___
 
